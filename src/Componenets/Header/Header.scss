@@ -72,6 +72,12 @@ header{
             aspect-ratio: 1;
             border-radius: 100px;
             object-fit: cover;
+            translate: 0 -150%;
+            transition: 0.3s ease;
+        }
+
+        &.active img{
+            translate: 0;
         }
     }
 }
