@@ -4,12 +4,12 @@ import Social from './Componenets/Social/Social';
 import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
 import Projects from './Pages/Projects/Projects';
+import Contact from './Pages/Contact/Contact';
 
 
 import github from "./assets/github.png";
 import linkedin from "./assets/linkedin.png";
 import email from "./assets/email.png";
-import Contact from './Pages/Contact/Contact';
 
 
 
