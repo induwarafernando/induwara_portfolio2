@@ -41,8 +41,8 @@ function App() {
         <Projects />
       </div>
 
-      <div className="page" id="projects">
-        <Projects />
+      <div className="page" id="contact">
+        <Contact />
       </div>
     </main>
   </div>
