@@ -40,10 +40,6 @@ function App() {
       <div className="page" id="projects">
         <Projects />
       </div>
-
-      <div className="page" id="projects">
-        <Projects />
-      </div>
     </main>
   </div>
   );
