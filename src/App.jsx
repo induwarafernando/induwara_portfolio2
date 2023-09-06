@@ -42,7 +42,10 @@ function App() {
 
       if(pageTop < 300){
 
-        
+        navLinks.forEach(link =>{
+          link.classList.remove("active")
+        })
+
         navLinks[i].classList.add("active");
 
         let width = navLinks[i].offsetWidth,
