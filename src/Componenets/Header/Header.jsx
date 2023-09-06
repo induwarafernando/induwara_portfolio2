@@ -48,8 +48,8 @@ const Header = () => {
             <div className="indicator"></div>
             <li className="active"><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">GET IN TOUCH</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#getin">GET IN TOUCH</a></li>
         </ul>
        </nav>
        <div className="profile">

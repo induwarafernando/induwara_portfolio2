@@ -8,7 +8,7 @@ const Projects = () => {
     const [tags] = useState(["React","CSS/SCSS","NodeJS","Express","More..."])
   return (
   
-  <div className="projects-wrapper">
+  <div className="projects-wrapper" id='projects'>
     <div></div>
         <ProjectTemplate 
         projectName="Admin Dashboard" 
