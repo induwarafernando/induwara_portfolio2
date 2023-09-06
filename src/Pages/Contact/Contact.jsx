@@ -1,3 +1,4 @@
+import Social from '../../Componenets/Social/Social'
 import './Contact.scss'
 
 const Contact = () => {
@@ -7,6 +8,11 @@ const Contact = () => {
     <span>
         lorem ipsum dolor sit amet consectetur adipisicing elit.
     </span>
+    
+    <div className="socials">
+        <Social />
+
+    </div>
     </div>
   )
 }
