@@ -34,7 +34,26 @@ function App() {
     }else{
       profile.classList.remove("active")
     }
+
+    for(let i=0; i<pages.length; i++){
+      let currentPage = pages[i]
+
+      let pageTop =currentPage.getBoundingClientRect().top;
+
+      if(pageTop < 300){
+
+        
+        navLinks[i].classList.add("active");
+
+        let width = navLinks[i].offsetWidth,
+            left = navLinks[i].offsetLeft;
+
+
+            indicator.style.width =`${width+28}px`; 
+            indicator.style.left = left+ "px";
+      }
   }
+}
 
   handleScroll();
   window.addEventListener("scroll",handleScroll);
