@@ -22,8 +22,6 @@ const Projects = () => {
         tags={tags}
         img={adminProject}
         />
-        
-      
     <div></div>
   </div>
   )
