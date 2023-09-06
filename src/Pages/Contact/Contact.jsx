@@ -20,9 +20,13 @@ const Contact = () => {
         <Social  logo={twitter} title="Twitter"/>
         <Social  logo={whatsapp} title="WhatsApp"/>
         <Social  logo={github} title="GitHub"/>
-
-
     </div>
+
+    <footer>
+        <span>
+            lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </span>
+    </footer>
     </div>
   )
 }
