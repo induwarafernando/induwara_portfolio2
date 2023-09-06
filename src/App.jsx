@@ -10,10 +10,38 @@ import Contact from './Pages/Contact/Contact';
 import github from "./assets/github.png";
 import linkedin from "./assets/linkedin.png";
 import email from "./assets/email.png";
+import { useEffect } from 'react';
 
 
 
 function App() {
+
+  useEffect(() => {
+
+    const navLinks = document.querySelectorAll("nav ul li");
+    const indicator = document.querySelector("nav .indicator");
+    const profile = document.querySelector(".profile");
+
+    const pages = document.querySelectorAll(".page");
+
+
+    function handleScroll(){
+      let homeBottom = pages[0].getBoundingClientRect().bottom;
+      let homeHeight = pages[0].offsetHeight;
+
+      if(homeBottom < homeHeight/2){
+        profile.classList.add("active")
+    }else{
+      profile.classList.remove("active")
+    }
+  }
+
+  handleScroll();
+  window.addEventListener("scroll",handleScroll);
+
+  },[]);
+
+
   return (
     <div className="App">
       <Header />
