@@ -23,9 +23,8 @@ const Projects = () => {
         img={adminProject}
         />
         
-        <ProjectTemplate /> 
-        <ProjectTemplate />
-        <div></div>
+      
+    <div></div>
   </div>
   )
 }
