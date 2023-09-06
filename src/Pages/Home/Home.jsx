@@ -4,7 +4,7 @@ import profile  from "../../assets/profile.png";
 
 const Home = () => {
   return (
-  <div className="home">
+  <div className="home" id='home'>
     <div className="details">
       <span className="intro">Hello,I`m</span>
 

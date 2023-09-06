@@ -46,8 +46,8 @@ const Header = () => {
       <nav>
         <ul>
             <div className="indicator"></div>
-            <li className="active"><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
+            <li className="active"><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
             <li><a href="#">PROJECTS</a></li>
             <li><a href="#">GET IN TOUCH</a></li>
         </ul>
