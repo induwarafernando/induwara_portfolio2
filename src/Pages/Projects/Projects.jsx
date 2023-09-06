@@ -25,6 +25,7 @@ const Projects = () => {
         
         <ProjectTemplate /> 
         <ProjectTemplate />
+        <div></div>
   </div>
   )
 }
