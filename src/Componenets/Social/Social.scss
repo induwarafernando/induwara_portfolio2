@@ -1,0 +1,32 @@
+.social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(45deg,(var(--clr-i)),var(--clr-ii));
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin:10px;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.274));
+    cursor: pointer;
+    transition: scale 0.2s;
+
+
+    &:hover{
+        scale: 1.06;
+    }
+
+    img{
+        height: 40px;
+    }
+
+    h1{
+        font-size: 18px;
+        font-weight: 500;
+        color:#fff;
+        font-family: raleway;
+    
+
+    }
+
+
+}

@@ -1,0 +1,60 @@
+*{  
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-i:#8d86b5;
+    --clr-ii:#90a0f2;
+}
+
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: roboto;
+    background-color: #cecece;
+    background: url(./assets/bg2.png);
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        width: 100%;
+        // background-color: red;
+        
+        .page{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+            width: 70%;
+            // background-color: lawngreen;
+        }
+
+        .social-wrapper{
+          position: relative;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap:20px;
+
+
+          .quick-links{
+            font-weight: 500;
+            font-size: 18px;
+          }
+
+          .socials{
+            display: flex;          }
+
+        }
+    }
+
+}

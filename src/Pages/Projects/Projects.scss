@@ -1,0 +1,12 @@
+.projects-wrapper {
+  position: relative;  
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  gap: 100px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+
+}

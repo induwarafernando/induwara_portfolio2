@@ -1,0 +1,107 @@
+.home{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+    flex:1;
+    width: 100%;
+
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        translate: -90px;
+        opacity: 0;
+        animation: animate 0.5s ease-out forwards;
+
+        @keyframes animate{
+            to {
+                opacity: 1;
+                translate: 0;
+            }
+        }
+
+        .intro{
+            font-size: 17px;
+            margin-left: 6px;
+        }
+        .name{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: raleway;
+
+            .txt{
+                font-size: 90px;
+                line-height: 101px;
+                text-align: center;
+
+                &.lg {
+                    font-size: 250px;
+                    line-height: 198px;
+                    filter: drop-shadow(0 6px 0 #766fa0);
+                    background: linear-gradient(var(--clr-i),var(--clr-ii));
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color:transparent;
+                }   
+            }
+            .stack{
+                position: relative;
+                bottom: 0;
+                left:10px;
+                transform-origin: right;
+                rotate: 90deg;
+                white-space: nowrap;
+
+
+                b{
+                    background: linear-gradient(var(--clr-i),var(--clr-ii));
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
+                }
+
+
+            }
+
+            }
+
+        }
+
+        .profile-img{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55%;
+            aspect-ratio: 1;
+            background-color: var(--clr-i);
+            border-radius: 30px;
+            overflow: hidden;
+            cursor: pointer;
+            filter: drop-shadow(10px 20px 15px rgba(0,0,0,0.377));
+            translate: -100px;
+            opacity: 0;
+            animation: animate 0.4s ease-out 0.2s forwards;
+
+            
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: 0.3s ease-out;
+
+
+                &:hover{
+                    scale: 1.02;
+                }
+
+            }
+        }
+    }

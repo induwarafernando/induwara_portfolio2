@@ -1,0 +1,79 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 12px 30px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../assets/bg2.png);
+
+    .logo{
+        display: flex;
+        gap: 10px;
+
+        img{
+            width: 30px;
+            height: 30px;
+            padding-bottom: 12px;
+        }
+        h1{
+            font-size: 18px;
+            i{
+                background: linear-gradient(#8d86b5,#90a0f2);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+            }
+        }
+    }
+        
+        nav{
+            flex: 1;
+            ul{
+                position: relative;
+                display: flex;
+                align-items: center;
+                list-style: none;
+                gap: 32px;
+                padding: 9px 20px;
+            li{
+                font-size: 14px;
+                cursor: pointer;
+                z-index: 1;
+                a{
+                    text-decoration: none;
+                    color: #000000;
+                }
+                &.active a {
+                    color: #fff;
+                }
+            }
+            .indicator{
+                position: absolute;
+                height: 100%;   
+                width: 100px;
+                background-color: #000000;
+                border-radius: 100px;
+                translate: -14px;
+                transition: 0.2s ease-out;
+            }
+            
+        }
+    }
+    .profile{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: flex-end;
+        img{
+            height: 35px;
+            aspect-ratio: 1;
+            border-radius: 100px;
+            object-fit: cover;
+        }
+    }
+}
+
+
