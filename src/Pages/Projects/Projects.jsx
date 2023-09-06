@@ -9,6 +9,7 @@ const Projects = () => {
   return (
   
   <div className="projects-wrapper">
+    <div></div>
         <ProjectTemplate 
         projectName="Admin Dashboard" 
         projectDesc="Project description..." 
