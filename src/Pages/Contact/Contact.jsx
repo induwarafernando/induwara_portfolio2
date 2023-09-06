@@ -13,6 +13,11 @@ const Contact = () => {
     
     <div className="socials">
         <Social  logo={github} title="GitHub"/>
+        <Social  logo={linkedin} title="LinkedIn"/>
+        <Social  logo={twitter} title="Twitter"/>
+        <Social  logo={whatsapp} title="WhatsApp"/>
+        <Social  logo={github} title="GitHub"/>
+
 
     </div>
     </div>
