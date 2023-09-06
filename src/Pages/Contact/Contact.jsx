@@ -1,6 +1,9 @@
 import Social from '../../Componenets/Social/Social'
 import './Contact.scss'
 import github from "../../assets/github.png";
+import linkedin from "../../assets/linkedin.png";
+import twitter from "../../assets/twitter.png";
+import whatsapp from "../../assets/whatsapp.png";
 
 
 const Contact = () => {
