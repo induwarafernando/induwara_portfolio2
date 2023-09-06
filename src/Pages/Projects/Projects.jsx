@@ -21,6 +21,12 @@ const Projects = () => {
         tags={tags}
         img={adminProject}
         />
+          <ProjectTemplate 
+        projectName="Admin Dashboard" 
+        projectDesc="Project description..." 
+        tags={tags}
+        img={adminProject}
+        />
         <ProjectTemplate /> 
         <ProjectTemplate />
   </div>
