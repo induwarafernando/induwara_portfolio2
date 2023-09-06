@@ -1,5 +1,7 @@
 import Social from '../../Componenets/Social/Social'
 import './Contact.scss'
+import github from "../../assets/github.png";
+
 
 const Contact = () => {
   return (
