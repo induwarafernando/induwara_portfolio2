@@ -6,8 +6,14 @@
 :root{
     --clr-i:#8d86b5;
     --clr-ii:#90a0f2;
+
+    // --clr-i:#6f4cb6;
+    // --clr-ii:#8e44ad;
 }
 
+
+$gradient-start: rgb(187, 218, 237); // Start color
+$gradient-end: rgb(194, 175, 233);   // End color
 
 .App{
     min-height: 100vh;
@@ -16,8 +22,7 @@
     justify-content: flex-start;
     align-items: center;
     font-family: roboto;
-    background-color: #cecece;
-    background: url(./assets/bg2.png);
+    background: linear-gradient(to right, $gradient-start, $gradient-end);
 
     main{
         display: flex;
