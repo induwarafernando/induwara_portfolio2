@@ -10,7 +10,7 @@ const Contact = () => {
     </span>
     
     <div className="socials">
-        <Social />
+        <Social  logo={github} title="GitHub"/>
 
     </div>
     </div>
