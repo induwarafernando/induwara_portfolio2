@@ -9,6 +9,7 @@ import Projects from './Pages/Projects/Projects';
 import github from "./assets/github.png";
 import linkedin from "./assets/linkedin.png";
 import email from "./assets/email.png";
+import Contact from './Pages/Contact/Contact';
 
 
 
