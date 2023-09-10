@@ -40,7 +40,7 @@ const Header = () => {
     <header>
         <div className="logo">
             <img src={logo} alt="" />    
-            <h1>INFINITY <i>STUDIOS</i></h1>
+            <h1> <i>Induwara</i>Fernando</h1>
             </div>
 
       <nav>
@@ -56,8 +56,6 @@ const Header = () => {
         <img src={profile} alt="" />
        </div>
     </header>
-
-
 
   )
 }

@@ -7,7 +7,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../../assets/bg2.png);
+    // background: url(../../assets/bg2.png);
+    background: #ffffff4b;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(9, 5, 85, 0.8);
 
     .logo{
         display: flex;
