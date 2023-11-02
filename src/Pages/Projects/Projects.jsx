@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import ProjectTemplate from '../../Componenets/ProjectTemplate/ProjectTemplate'
 import './Projects.scss'
-import adminProject from "../../assets/admin-dashboard.png"
+import adminProject from "../../assets/Stocksense.png"
+import adminProject2 from "../../assets/EcoDispose.png"
+
+
 
 const Projects = () => {
 
@@ -20,7 +23,7 @@ const Projects = () => {
         projectName="Admin Dashboard" 
         projectDesc="Project description..." 
         tags={tags}
-        img={adminProject}
+        img={adminProject2}
         />
     <div></div>
   </div>
